@@ -1,0 +1,13 @@
+:root {
+  --color-primario: #00a6fb;
+  --color-secundario: #006494;
+  --color-fondo-header: #051923;
+  --color-texto: #051923;
+  --color-fondo: #f5f7fa;
+  --color-blanco: #f5f7fa;
+
+  --fuente-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  --espaciado-base: 1rem;
+  --borde-redondo: 12px;
+}
