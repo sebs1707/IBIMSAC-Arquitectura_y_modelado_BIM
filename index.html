@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IBIMSAC - Arquitectura & Modelado BIM</title>
+
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+    <div class="site-container">
+
+        <header class="header" id="inicio">
+            <div class="logo">
+                <h1>IBIMSAC</h1>
+                <p>Arquitectura y Modelado BIM</p>
+            </div>
+            <nav class="nav">
+                <ul class="nav__menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero__contenido">
+                <h2>Innovación en cada proyecto</h2>
+                <p>Diseño arquitectónico y soluciones BIM que transforman la industria.</p>
+            </div>
+        </section>
+
+        <main class="servicios" id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios__grid">
+                <article class="servicio">
+                    <h3>Modelado 3D</h3>
+                    <p>Representación tridimensional detallada de estructuras.</p>
+                    <span class="precio">$1200</span>
+                </article>
+
+                <article class="servicio">
+                    <h3>Coordinación BIM</h3>
+                    <p>Sincronización eficiente entre disciplinas AEC.</p>
+                    <span class="precio">$950</span>
+                </article>
+
+                <article class="servicio">
+                    <h3>Consultoría BIM</h3>
+                    <p>Asesoría para implementación y gestión BIM.</p>
+                    <span class="precio">$800</span>
+                </article>
+
+                <article class="servicio">
+                    <h3>Planificación 4D</h3>
+                    <p>Visualización de fases de obra en tiempo real.</p>
+                    <span class="precio">$1050</span>
+                </article>
+
+                <article class="servicio">
+                    <h3>Clash Detection</h3>
+                    <p>Detección anticipada de interferencias constructivas.</p>
+                    <span class="precio">$600</span>
+                </article>
+
+                <article class="servicio">
+                    <h3>Asesoría LEED</h3>
+                    <p>Certificación de proyectos sostenibles y eficientes.</p>
+                    <span class="precio">$900</span>
+                </article>
+            </div>
+        </main>
+
+        <section class="contacto" id="contacto">
+            <h2>Contáctanos</h2>
+            <form action="#" method="post" class="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Motivo de contacto" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"
+                    required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2025 IBIMSAC - Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
