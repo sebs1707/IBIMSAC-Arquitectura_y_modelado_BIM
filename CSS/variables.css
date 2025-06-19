@@ -1,0 +1,16 @@
+:root {
+    /* Colores corporativos */
+    --color-primario: #0077b6;
+    /* Azul BIM */
+    --color-secundario: #023e8a;
+    --color-fondo: #f8f9fa;
+    --color-texto: #2c2c2c;
+    --color-blanco: #ffffff;
+
+    /* Tipografía */
+    --fuente-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Tamaños */
+    --espaciado-base: 1rem;
+    --borde-redondo: 12px;
+}
